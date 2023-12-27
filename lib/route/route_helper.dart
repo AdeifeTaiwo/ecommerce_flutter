@@ -3,6 +3,7 @@ import 'package:ecommerce_flutter/pages/detail/recommended_food_detail.dart';
 import 'package:ecommerce_flutter/pages/home/main_food_page.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
+import 'package:get/get.dart';
 
 class RouteHelper {
   static const String initial = "/";
@@ -13,7 +14,7 @@ class RouteHelper {
 
   static String getPopularFood(int pageId) => '$popularFood?pageId=$pageId';
 
-  static String getRecommendedFood() => '$recommendedFood';
+  static String getRecommendedFood(int pageId) => '$recommendedFood?pageId=$pageId';
 
   static List<GetPage> routes = [
     GetPage(name: initial, page: () => MainFoodPage()),
@@ -21,14 +22,17 @@ class RouteHelper {
       name: popularFood,
       page: () {
         var pageId = Get.parameters['pageId'];
-        return PopularFoodDetail(pageId);
+        return PopularFoodDetail(pageId: int.parse(pageId!),);
       },
       transition: Transition.circularReveal,
     ),
+
+
     GetPage(
       name: recommendedFood,
       page: () {
-        return RecommendedFoodDetail();
+        var pageId = Get.parameters['pageId'];
+        return RecommendedFoodDetail(pageId: int.parse(pageId!));
       },
       transition: Transition.circularReveal,
     )
