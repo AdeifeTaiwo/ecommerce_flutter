@@ -1,16 +1,15 @@
 # ecommerce_flutter
 
-A new Flutter project.
+A Ecommerce Flutter Project showcasing the use of GetX and Model-View-Controller Pattern .
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Concepts used includes 
+GetX,
+HiveBox, 
+PageView Builder for List, 
+Clean Architecture,
+Api Consumption
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Alt text] (https://github.com/AdeifeTaiwo/flutter_bloc_pattern/assets/37305943/f2c9a7a6-3d96-453a-b6d6-101d8cbf7c4f)
