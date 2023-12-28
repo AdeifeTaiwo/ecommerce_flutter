@@ -12,4 +12,4 @@ Clean Architecture,
 Api Consumption
 
 
-![Alt text] (https://github.com/AdeifeTaiwo/flutter_bloc_pattern/assets/37305943/f2c9a7a6-3d96-453a-b6d6-101d8cbf7c4f)
+![Alt text](https://github.com/AdeifeTaiwo/flutter_bloc_pattern/assets/37305943/f2c9a7a6-3d96-453a-b6d6-101d8cbf7c4f)
