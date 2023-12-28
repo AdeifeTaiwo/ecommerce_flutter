@@ -6,17 +6,17 @@ A Ecommerce Flutter Project showcasing the use of GetX and Model-View-Controller
 
 Concepts used includes 
 GetX,
-##
+#
 HiveBox: Used for Data persistence
-##
+#
 PageView Builder for List, 
-##
+#
 Clean Architecture,
-##
+#
 Api Consumption: this make uses of Api Client class which supplies the authorization and tokens, need for authentication of api, this also involes the use of repository classes
-##
+#
 Dependency Injection: GetX uses dependency injection class to initialize items in 
-##
+#
 Page Router
 ##
 Controller: This handles logic which is fed into the UI
